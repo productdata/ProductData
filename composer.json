@@ -14,5 +14,9 @@
     "require-dev": {
         "nette/tester": "~1.4"
     },
-    "psr-0": { "ProductData": "src/" }
+    "autoload": {
+        "psr-0": {
+            "ProductData": "src/"
+        }
+    }
 }
