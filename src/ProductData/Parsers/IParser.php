@@ -1,5 +1,5 @@
 <?php
-namespace SpolupraceNet\Parsers;
+namespace ProductData\Parsers;
 
 use Nette\Http\Url;
 
