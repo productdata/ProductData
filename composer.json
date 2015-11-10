@@ -1,0 +1,17 @@
+{
+    "name": "ProductData/ProductData",
+    "authors": [
+        {
+            "name": "Erik Zigo",
+            "email": "info@spoluprace.net"
+        }
+    ],
+    "require": {
+        "nette/caching": "~2.3.0",
+        "nette/http": "~2.3.0",
+        "nette/utils": "~2.3.0"
+    },
+    "require-dev": {
+        "nette/tester": "~1.4"
+    }
+}
