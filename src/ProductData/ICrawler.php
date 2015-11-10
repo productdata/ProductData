@@ -3,7 +3,7 @@ namespace ProductData;
 
 use Nette\Http\Url;
 
-interface Crawler
+interface ICrawler
 {
 	/**
 	 * @param Url $url
