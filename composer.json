@@ -9,7 +9,8 @@
     "require": {
         "nette/caching": "~2.3.0",
         "nette/http": "~2.3.0",
-        "nette/utils": "~2.3.0"
+        "nette/utils": "~2.3.0",
+        "defuse/php-encryption": "dev-master#399fc4c"
     },
     "require-dev": {
         "nette/tester": "~1.4"
