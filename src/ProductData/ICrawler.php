@@ -1,6 +1,7 @@
 <?php
 namespace ProductData;
 
+use Dibi\Row;
 use Nette\Http\Url;
 
 interface ICrawler
@@ -14,5 +15,5 @@ interface ICrawler
 	/**
 	 * @return void
 	 */
-	public function start(\DibiRow $importRow);
+	public function start(Row $importRow);
 }

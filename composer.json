@@ -10,7 +10,8 @@
         "nette/caching": "~2.5.0",
         "nette/http": "~2.4.0",
         "nette/utils": "~2.5.0",
-        "defuse/php-encryption": "@dev"
+        "defuse/php-encryption": "@dev",
+        "dibi/dibi": "~3.0.0"
     },
     "require-dev": {
         "nette/tester": "~1.4"
