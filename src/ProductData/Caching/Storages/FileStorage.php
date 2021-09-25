@@ -3,12 +3,14 @@ namespace ProductData\Caching\Storages;
 
 use Nette\InvalidArgumentException;
 use Nette\Caching\IStorage;
-use Nette\Object;
+use Nette\SmartObject;
 use Nette\Utils\FileSystem;
 use Nette\Utils\Finder;
 
-class FileStorage extends Object implements IStorage
+class FileStorage implements IStorage
 {
+    use SmartObject;
+
 	/**
 	 * @var \SplFileInfo
 	 */
