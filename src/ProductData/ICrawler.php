@@ -14,5 +14,5 @@ interface ICrawler
 	/**
 	 * @return void
 	 */
-	public function start();
+	public function start(\DibiRow $importRow);
 }
