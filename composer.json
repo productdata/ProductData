@@ -8,7 +8,7 @@
     ],
     "require": {
         "nette/caching": "~2.5.0",
-        "nette/http": "~2.5.0",
+        "nette/http": "~2.4.0",
         "nette/utils": "~2.5.0",
         "defuse/php-encryption": "@dev"
     },
