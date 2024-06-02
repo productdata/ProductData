@@ -11,8 +11,4 @@ interface ICrawler
 	 */
 	public function debug(Url $url);
 
-	/**
-	 * @return void
-	 */
-	public function start();
 }
